@@ -53,3 +53,45 @@
     isolation: isolate;
   }
 
+/* My CSS */
+
+:root {
+    --clr-neutral-100: hsl(0, 0%, 100%);
+    --clr-neutral-200: hsl(212, 45%, 89%);
+    --clr-neutral-400: hsl(220, 15%, 55%);
+    --clr-neutral-700: hsl(218, 44%, 22%);
+
+    --ff-primary: 'Outfit', sans-serif;
+
+    --fw-default: 400;
+    --fw-bold: 700;
+}
+
+body {
+    background-color: var(--clr-neutral-200);
+    display: grid;
+    place-items: center;
+    font-size: 0.938rem;
+    color: var(--clr-neutral-400);
+    font-family: var(--ff-primary);
+}
+
+.card {
+    background-color: var(--clr-neutral-100);
+    text-align: center;
+    margin: 1.75rem;
+    padding: 1rem 1rem 3rem 1rem;
+    border-radius: 1rem;
+    display: grid;
+    gap: 1rem;
+    max-width: 320px;
+}
+
+.card__image {
+    border-radius: .5rem;
+}
+
+.card__title {
+    color: var(--clr-neutral-700);
+    font-size: 1.5rem;
+}
