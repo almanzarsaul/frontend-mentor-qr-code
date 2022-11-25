@@ -95,3 +95,14 @@ body {
     color: var(--clr-neutral-700);
     font-size: 1.5rem;
 }
+
+footer {
+  font-size: .625rem;
+  color: var(--clr-neutral-700);
+}
+
+footer > a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: var(--fw-bold);
+}
